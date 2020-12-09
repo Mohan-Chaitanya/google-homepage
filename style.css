@@ -1,0 +1,87 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  flex: 1 0;
+}
+
+header > div {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+}
+
+.left-align,
+.right-align {
+  display: flex;
+}
+
+.navBar {
+  display: flex;
+}
+
+.left-align {
+  padding-right: 10px;
+}
+
+.right-align {
+  padding-left: 75%;
+}
+
+.signIn {
+  background: rgb(78, 75, 245);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(238, 235, 235);
+  display: flex;
+  padding: 10px;
+  height: 5%;
+}
+
+.body-style {
+  text-align: center;
+  position: relative;
+  background-color: white;
+  padding-top: 13%;
+}
+
+.searchBox {
+  margin-bottom: 10px;
+  width: 40%;
+  height: 2.8rem;
+  border-radius: 2rem;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.button {
+  background-color: rgb(231, 230, 230);
+  border-radius: 5px;
+  height: 2rem;
+  border: none;
+}
+
+.button :hover {
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.trademarks {
+  padding-right: 60%;
+}
